@@ -12,12 +12,14 @@ alias poweroff='sudo shutdown -h now'
 alias restart='sudo reboot'
 alias c='clear'
 alias nosleep='caffeinate'
-alias codes='cd /Users/mehul/Desktop/Codes'
-alias dt='cd /Users/mehul/Desktop'
+alias codes='cd /Users/mehulahuja/Desktop/Imp'
+alias dt='cd /Users/mehulahuja/Desktop'
+alias gdev='cd /Users/mehulahuja/Desktop/Codes/GameDev'
+alias checkspeed='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 
 
 # running a simple http server for testing 
-alias start_server='python -m SimpleHTTPServer 8000'
+alias ss='python -m SimpleHTTPServer 8000'
 
 # download youtube videos
 alias downloadmp3='cd /volumes/transcend/songs/downloaded; youtube-dl --extract-audio --audio-format mp3'
@@ -55,3 +57,9 @@ alias hstop='/usr/local/Cellar/hadoop/2.7.2/sbin/stop-yarn.sh;/usr/local/Cellar/
 #   uncomment the nest line.                  #
 ###############################################
 # export PATH="/Users/mehul/anaconda/bin:$PATH"
+export PATH=$PATH:$HOME
+
+
+
+# export NODE_PATH="$(npm root -g)"
+export NODE_PATH="/usr/local/lib/node_modules"
